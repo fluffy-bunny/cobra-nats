@@ -16,5 +16,14 @@ services:
       - nats_data:/data
     restart: unless-stopped
 
+  app:
+    image: ghcr.io/fluffy-bunny/cobra-nats:latest
+    container_name: cobra-nats-app
+    ports:
+      - "8225:8225"
+    depends_on:
+      - nats
+    restart: unless-stopped
+
 volumes:
   nats_data:

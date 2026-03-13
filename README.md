@@ -101,7 +101,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) — the dashboard will appear.
+Open [http://localhost:8225](http://localhost:8225) — the dashboard will appear.
 
 ---
 
@@ -219,7 +219,7 @@ npx playwright test tests/functional-streams.spec.ts tests/functional-messaging.
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start development server on port 3000 |
+| `npm run dev` | Start development server on port 8225 |
 | `npm run build` | Build production bundle |
 | `npm run start` | Start production server |
 | `npm run lint` | Run ESLint |
